@@ -92,4 +92,5 @@ api.add_resource(StudentListResource, "/students", endpoint="students")
 api.add_resource(StudentResource, "/students/<int:id>", endpoint="student")
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(debug=False)
+
